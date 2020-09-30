@@ -1,7 +1,7 @@
-## Honeybag 
-Honeybag is a tool that allows you to create a 'bait archive' with any folders and files, notify you if someone accesses it. This can be useful for data breach detection, deception defense mechanism, etc.
+# Honeybag 
+Honeybag is a tool that helps you to create a 'bait archive' with any folders and files, notify you if someone accesses it. This can be useful for data breach detection, deception defense mechanism, etc.
 
-### How it works:
+## How it works:
 What if we can easily create a tailor-made secret.zip archive, with any embedded files (e.g. document.pdf, secret.doc), and we will be notified if someone unzip and accesses it? 
 
 With Honeybag, we can easily create this ZIP archive, with highly customizable configurations. Honeybag will add custom desktop.ini and/or .url shortcut files into the ZIP archive. It leverages on the custom UNC path and sends alerts with DNS or SMB network protocol.
