@@ -1,0 +1,112 @@
+[honeybag-config]
+
+domain                    = yourdomain.abc
+ip_address                = 127.0.0.1
+alert_mode_desktop_ini    = true
+alert_mode_url_shortcut   = true
+token_length              = 6
+token_value               = 
+token_description         = this is my first honeybag token
+url_shortcut_link         = http://placetherealshortcuturlhere.com
+url_shortcut_file_name    = placetherealshortcuturlhere.com
+folder_name_in_zip_file   = secretfolder
+file_name_final_zip_file  = secret.zip
+
+
+# [default_config]
+
+# domain                    = yourdomain.abc
+# ip_address                = 127.0.0.1
+# alert_mode_desktop_ini    = true
+# alert_mode_url_shortcut   = true
+# token_length              = 6
+# token_value               = 
+# token_description         = this is my first honeybag token
+# url_shortcut_link         = http://placetherealshortcuturlhere.com
+# url_shortcut_file_name    = placetherealshortcuturlhere.com
+# folder_name_in_zip_file   = secretfolder
+# file_name_final_zip_file  = secret.zip
+
+
+# ///////////////////////////////////////////////////////
+# 
+# Honeybag main configuration file - honeybag.conf
+#
+# ///////////////////////////////////////////////////////
+
+# Honeybag is designed to be highly customizable, so you can easily create ZIP archive for different use cases 
+# You can easily customize these settings in honeybag.conf:
+
+
+# domain
+# You can specific your domain name to receive alerts via DNS A query
+#
+# domain = yourdomain.abc
+ 
+
+# ip_address
+# Allows you to specific your IP to receive alerts (for RESPONDER setup)
+#
+# ip_address = 127.0.0.1
+
+
+# alert_mode_desktop_ini
+# You can enable or disable the alert mode of 'desktop.ini', with true or false boolean
+#
+# alert_mode_desktop_ini  = true
+
+
+# alert_mode_url_shortcut
+# You can enable or disable the alert mode of 'url shortcut', with true or false boolean
+#
+# alert_mode_url_shortcut = true
+
+
+# token_length
+# You can set the token length. The default token length is 6 characters
+#
+# token_length = 6
+
+
+# token_value
+# You can specify a custom token value. By default, this is empty token value.
+# If empty token_value, Honeybag will automatically generate a new token which fits the token_lenght
+#
+# token_value = 
+
+
+# token_description
+# You can specify a description of the token. High recommend to put a detailed description
+# The description will be stored in database internally for easier future reference
+# It won't be visible in the final generated ZIP archive 
+#
+# token_description = this is my first Honeybag token
+
+
+# url_shortcut_link
+# Allows you to specific the full link which will appear in .URL shortcut
+# If someone click on the .URL shortcut, he will be redirected to this full HTTP(s) link
+#
+# url_shortcut_link = http://placetherealshortcuturlhere.com
+
+
+# url_shortcut_file_name 
+# Allows you to set the file name of the .URL shortcut
+#
+# url_shortcut_file_name = placetherealshortcuturlhere.com
+
+
+# folder_name_in_zip_file
+# Allows you to set the 'folder name' in the ZIP archive
+# Honeybag will generate a final ZIP archive which contains a folder with files (desktop.ini, .url)
+# You can set the 'folder name' with this setting
+#
+# folder_name_in_zip_file = secretfolder
+
+
+# file_name_final_zip_file
+# Allow you to set the file name of the final ZIP archive
+# Honeybag will generate a final ZIP archive with this name (e.g. secret.zip)
+#
+# file_name_final_zip_file = secret.zip
+

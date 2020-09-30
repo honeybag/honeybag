@@ -1,0 +1,19 @@
+# conf
+conf/honeybag.conf
+
+# log
+log/honeybag-dns.log
+
+# Sqlite db
+log/honeybag.sqlite
+
+# folders used to generate ZIP
+mainfolder/input/*
+mainfolder/temp/*
+mainfolder/output-final/*
+
+#!.gitkeep
+!mainfolder/.gitkeep
+!mainfolder/input/.gitkeep
+!mainfolder/temp/.gitkeep
+!mainfolder/output-final/.gitkeep
